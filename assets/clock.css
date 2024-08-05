@@ -26,7 +26,7 @@ main {
     position: relative;
 }
 
-.number {
+.number { /*estilizando numeros */
     font-size: 1.2rem;
     font-weight: 600;
     position: absolute;
@@ -34,4 +34,8 @@ main {
     height: 100%;
     text-align: center; /*centralizando e alinhar o numero */
     padding: 5px; /*Separar da borda*/
+}
+
+.number-1 {
+    transform: rotate();
 }
