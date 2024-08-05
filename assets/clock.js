@@ -27,3 +27,5 @@ setInterval(() => {
   minuteHand.style.transform = `translate(0, -50%) rotate(${minutesAngle}deg)`;
   hourHand.style.transform = `translate(0, -50%) rotate(${hoursAngle}deg)`;
 }, 1000);
+
+
