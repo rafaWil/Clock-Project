@@ -12,10 +12,11 @@ body {
 main {
     min-width: 100%; /*Sempre ocupar toda tela */
     min-height: 100vh; /*VH para ocupar toda tela na altura */
+
 }
 
-.clock {
-    width: 600px;
+.clock { /* Estilizando relogio */
+    width: 600px; /* Tamanhos de altura e largura iguais */
     height: 600px;
     background-color: #f0f8ff;
     border-radius: 600px;
