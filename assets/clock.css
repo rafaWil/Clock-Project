@@ -12,7 +12,9 @@ body {
 main {
     min-width: 100%; /*Sempre ocupar toda tela */
     min-height: 100vh; /*VH para ocupar toda tela na altura */
-
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizando meu relogio */
 }
 
 .clock { /* Estilizando relogio */
