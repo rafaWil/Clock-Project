@@ -18,6 +18,6 @@ setInterval(() => {
 
     const { seconds } = getTime(); //Constante chamada segundo com valor seconds
 
-    secondHand.style.transform = 'translate(0, -50%) rotate(40deg)';
+    secondHand.style.transform = `translate(0, -50%) rotate(${seconds * 6}°)`;
 
 }, 1000);
