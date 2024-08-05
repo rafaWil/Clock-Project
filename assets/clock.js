@@ -15,6 +15,7 @@ const getTime = () => { //Criando função para buscar horario atual
 
 
 setInterval(() => {
-    
+
+    secondHand.style.transform = 'rotate('
 
 }, 1000);
