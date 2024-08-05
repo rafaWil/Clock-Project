@@ -95,7 +95,7 @@ main {
     background-color: brown;
     position: absolute;
     border-radius: 5px;
-    transform: translate(0, -50%) rotate(30deg);
+    transform: translate(0, -50%);
     transform-origin: bottom center; /*Manter fixo o ponto da div do ponteiro */
 }
 
@@ -107,4 +107,14 @@ main {
     border-radius: 5px;
     transform: translate(0, -50%); /*alinhar no centro */
     transform-origin: bottom center; /*Manter fixo o ponto da div do ponteiro na rotação*/
+}
+
+.hour-hand {
+    width: 13px;
+    height: 150px;
+    background-color: #333;
+    position: absolute;
+    border-radius: 13px;
+    transform: translate(0, -50%); /*alinhar no centro*/
+    transform-origin: bottom center; /*Manter fixo o ponto da div do ponteiro */
 }
