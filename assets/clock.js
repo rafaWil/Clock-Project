@@ -16,6 +16,8 @@ const getTime = () => { //Criando função para buscar horario atual
 
 setInterval(() => {
 
-    secondHand.style.transform = 'rotate('
+    const { seconds } = getTime(); //Constante chamada segundo com valor seconds
+
+    secondHand.style.transform = 'translate(0, -50%) rotate(40deg)';
 
 }, 1000);
