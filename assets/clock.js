@@ -13,3 +13,8 @@ const getTime = () => { //Criando função para buscar horario atual
     };
 }
 
+
+setInterval(() => {
+    
+
+}, 1000);
