@@ -36,6 +36,7 @@ main {
     padding: 5px; /*Separar da borda*/
 }
 
+/*Criando os numeros em rotação na tela (os 12 numeros), para isto usamos 360(graus) / 12(numeros) - posicoes*/
 .number-1 {
-    transform: rotate();
+    transform: rotate(30deg); 
 }
