@@ -118,3 +118,11 @@ main {
     transform: translate(0, -50%); /*alinhar no centro*/
     transform-origin: bottom center; /*Manter fixo o ponto da div do ponteiro */
 }
+
+.center { /*estilizando bolinha do meio do relogio */
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: brown;
+    position: absolute;
+}
