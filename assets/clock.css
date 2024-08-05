@@ -1,4 +1,4 @@
-* {
+* { /*Resetando estilos basicos na page */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,6 +6,10 @@
 }
 
 body {
-    background-color: #6494ed;
+    background-color: #6494ed; /*Cor de fundo */
 }
 
+main {
+    min-width: 100%;
+    min-height: 100vh;
+}
